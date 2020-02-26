@@ -37,3 +37,4 @@ object ERSRegime extends TaxRegime {
   override val unauthorisedLandingPage = Some(routes.AuthorizationController.notAuthorised().url)
   override val authenticationType = ERSGovernmentGateway
 }
+
